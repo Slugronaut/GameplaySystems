@@ -1,0 +1,39 @@
+{
+  "name": "com.postegames.gameplaysystems",
+  "version": "1.0.0",
+  "displayName": "PEGGAME - Gameplay Systems",
+  "description": "Advanced behaviours for higher level gameplay systems.",
+  "unity": "2022.2",
+  "keywords": [
+    "toolbox",
+    "gameplay",
+    "systems",
+    "behaviour"
+  ],
+  "author": {
+    "name": "Sluggy",
+    "email": "jcsluggy@gmail.com",
+    "url": "http:/postegames.com"
+  },
+  "dependencies": {
+    "com.dweiss.rigidbodyextensions": "",
+    "com.postegames.autocreatable": "",
+    "com.postegames.autonomousentities": "",
+    "com.postegames.collections": "",
+    "com.postegames.eventbehaviourframework": "",
+    "com.postegames.gcci": "",
+    "com.postegames.hashedstring": "",
+    "com.postegames.independentbehaviours": "",
+    "com.postegames.instantiabletype": "",
+    "com.postegames.lazarus": "",
+    "com.postegames.lodsystem": "",
+    "com.postegames.mathutils": "",
+    "com.postegames.messagedispatcher": "",
+    "com.postegames.messagebehaviourframework": "",
+    "com.postegames.sharedenums": "",
+    "com.postegames.toolboxcorelib": "",
+    "com.postegames.trackables": "",
+    "com.postegames.typehelper": "",
+    "com.postegames.unityextensions": ""
+  }
+}
