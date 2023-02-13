@@ -47,9 +47,9 @@ namespace Toolbox.Game
         public string FollowupScene;
 
 
-        protected override void AutoAwake()
+        protected override void AutoStart()
         {
-            base.AutoAwake();
+            base.AutoStart();
 
             if (Application.isPlaying && !DisableStartupScene)
             {

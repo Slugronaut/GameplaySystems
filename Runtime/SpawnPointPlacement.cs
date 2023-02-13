@@ -31,7 +31,7 @@ namespace Toolbox.Game
         public static SpawnPointPlacement Instance { get; private set; }
         
         
-        void AutoAwake()
+        void AutoStart()
         {
             Instance = this;
             SceneManager.sceneLoaded += OnSceneLoaded;
