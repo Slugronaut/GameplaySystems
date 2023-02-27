@@ -89,7 +89,7 @@ namespace Toolbox.Game
         static readonly string SpawnPointTag = "CulledSpawnPoint";
         void CollectSpawnPoints()
         {
-            Debug.Log("<color=green>Collecting spawn points...</color>");
+            //Debug.Log("<color=green>Collecting spawn points...</color>");
             if (SpawnGroup != null)
             {
                 SpawnGroup.Dispose();
