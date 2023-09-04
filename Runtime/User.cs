@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Toolbox.Collections;
+using Peg.Util;
 using UnityEngine.Events;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Allows an object to receive notification when touching a trigger of a 'Useable'.

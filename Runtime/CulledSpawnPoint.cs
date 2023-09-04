@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Used to mark a point in space that is processed by a spawner using the CullingGroup API.

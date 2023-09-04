@@ -3,7 +3,7 @@ using System;
 using UnityEngine.Assertions;
 using Sirenix.OdinInspector;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// This component registers itself with the named source Stats at creation

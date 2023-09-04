@@ -1,7 +1,7 @@
-﻿using Toolbox.GCCI;
+﻿using Peg.GCCI;
 using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     public class ReviveOnEnable : MonoBehaviour
     {

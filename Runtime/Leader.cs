@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using Toolbox.Messaging;
-using Toolbox.Collections;
+using Peg.Messaging;
+using Peg.Util;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Periodically searched fro nearby followers

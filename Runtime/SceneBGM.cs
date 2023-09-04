@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using Peg.Systems;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// used to tag the BGM player for the scene.
@@ -119,7 +120,7 @@ namespace Toolbox.Behaviours
                     source.volume -= inc;
 
                     //needed to adapt this to work even when Time.scale is 0
-                    yield return Toolbox.CoroutineUtilities.WaitForRealTime(Freq);// CoroutineWaitFactory.RequestWait(Freq);
+                    yield return CoroutineUtilities.WaitForRealTime(Freq);// CoroutineWaitFactory.RequestWait(Freq);
                 }
             }
 
@@ -139,7 +140,7 @@ namespace Toolbox.Behaviours
                     {
                         source.volume += inc;
                         //needed to adapt this to work even when Time.scale is 0
-                        yield return Toolbox.CoroutineUtilities.WaitForRealTime(Freq);// CoroutineWaitFactory.RequestWait(Freq);
+                        yield return CoroutineUtilities.WaitForRealTime(Freq);// CoroutineWaitFactory.RequestWait(Freq);
                     }
                 }
                 source.volume = targetVolume;

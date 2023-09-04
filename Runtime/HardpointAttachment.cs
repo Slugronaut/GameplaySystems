@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Attachable to a Hardpoint component.

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Posts an EntityDespawned message when a Unity event occurs.

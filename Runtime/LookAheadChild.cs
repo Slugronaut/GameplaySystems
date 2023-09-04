@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Positions a child object ahead of it's parent based on the parent's motion.

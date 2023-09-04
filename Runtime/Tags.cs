@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System;
-using Toolbox.Game;
-using Toolbox;
-using Toolbox.Messaging;
-using Toolbox.Collections;
+using Peg.Game;
+using Peg;
+using Peg.Messaging;
+using Peg.Util;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// General-purpose entity tags.

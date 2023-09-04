@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Owns and controls a group of sub-mobs. Self-destructs when all sub-mobs have been despawned.

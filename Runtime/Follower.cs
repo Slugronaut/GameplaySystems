@@ -1,8 +1,8 @@
-﻿using Toolbox.Messaging;
+﻿using Peg.Messaging;
 using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Attach to an entity that is detectable by a Leader

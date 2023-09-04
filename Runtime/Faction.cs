@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections.Generic;
-using Toolbox.Game.Messages;
-using Toolbox.Messaging;
+using Peg.Game.Messages;
+using Peg.Messaging;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Represents a set of alignments and enemies.
@@ -274,7 +274,7 @@ namespace Toolbox.Game
 }
 
 
-namespace Toolbox.Game.Messages
+namespace Peg.Game.Messages
 {
     /// <summary>
     /// Message for demanding an entity's Faction component using the GlobalMessagePump.

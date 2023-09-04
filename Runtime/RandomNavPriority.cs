@@ -2,7 +2,7 @@
 using UnityEngine.AI;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Sets the priority for an attached NavMeshAgent to a random value within a range.

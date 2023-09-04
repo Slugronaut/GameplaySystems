@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Follows a target in a dollied fashion. This allows for things like

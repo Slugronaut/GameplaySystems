@@ -1,12 +1,13 @@
-﻿using Toolbox.AutoCreate;
-using Toolbox.Behaviours;
-using Toolbox.Collections;
-using Toolbox.Lazarus;
+﻿using Peg.AutoCreate;
+using Peg.Behaviours;
+using Peg.Util;
+using Peg.Lazarus;
+using Peg.Lib;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Does what it says. Has a statically defined internal limit of affecting up to 50 entities.
@@ -96,7 +97,7 @@ namespace Toolbox.Game
                             if (hp != null)
                             {
                                 float dist = Vector3.Distance(hp.transform.position, pos);
-                                hp.CurrentHealth -= (int)Toolbox.Math.MathUtils.EvaluateCurveScale(dist / Radius, DamageMin, DamageMax, DamageDropoff);
+                                hp.CurrentHealth -= (int)MathUtils.EvaluateCurveScale(dist / Radius, DamageMin, DamageMax, DamageDropoff);
                             }
                         }
                     }

@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Dweiss;
-using Toolbox.Collections;
+using Peg.Util;
+using Peg.Lib;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Used to simulate a ballistic trajectory using raycasts.
@@ -161,7 +162,7 @@ namespace Toolbox.Game
                 // If our raycast hit no objects, then set the next position to the last one plus v*t
                 else
                 {
-                    Toolbox.Math.MathUtils.Verlet(Time.fixedDeltaTime, Physics.gravity, ref currentPos, ref currentVel);
+                    MathUtils.Verlet(Time.fixedDeltaTime, Physics.gravity, ref currentPos, ref currentVel);
                     //Vector3 newPos;
                     //Vector3 newVel;
                     //Heuns(Time.fixedDeltaTime, currentPos, currentVel, out newPos, out newVel);

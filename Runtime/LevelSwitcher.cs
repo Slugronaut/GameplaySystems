@@ -1,12 +1,13 @@
-﻿using System.Collections;
+﻿using Peg.Systems;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using LazarusPool = Toolbox.Lazarus.Lazarus;
+using LazarusPool = Peg.Lazarus.Lazarus;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
-    /// Used to transition to new scenes with smooth effects like screen fade and BGM corssfade.
+    /// Used to transition to new scenes with smooth effects like screen fade and BGM crossfade.
     /// </summary>
     public class LevelSwitcher : AbstractOperationOnEvent
     {

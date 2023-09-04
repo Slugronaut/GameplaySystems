@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-using Toolbox.Game;
+using Peg.Game;
 using Sirenix.OdinInspector;
-using Toolbox;
-using Toolbox.Messaging;
+using Peg;
+using Peg.Messaging;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// General-purpose character stat that stores a current and max value as floats.
@@ -172,7 +172,7 @@ namespace Toolbox.Game
 }
 
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Posted by a CharacterStat Component when its internal current value changes.

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Used as a dummy that can redirect to an entity's actual health.

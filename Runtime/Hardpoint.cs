@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Useful for marking points that need to be discovered at runtime

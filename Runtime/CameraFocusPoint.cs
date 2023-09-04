@@ -1,16 +1,16 @@
 ﻿using System.Collections;
-using Toolbox.Behaviours;
+using Peg.Behaviours;
 using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Used to adjust the x, y, and z, axis on which the camera is centered. The motion
     /// can be blended over time and allows the camera to adjust even on axies that are locked
     /// in the smooth motion tracker.
     /// </summary>
-    public class CameraFocusPoint : Toolbox.AbstractOperationOnEvent
+    public class CameraFocusPoint : Peg.AbstractOperationOnEvent
     {
         static Coroutine Co;
         static float Threshold = 0.5f;

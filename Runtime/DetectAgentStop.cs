@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 using UnityEngine.Events;
 using System;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Detects when a NavMeshAgent has stopped either due to reaching it's destination or to having an incomplete path.

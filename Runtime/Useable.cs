@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Sirenix.OdinInspector;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Allows this object to display an interaction option when a 'User' touches it with a trigger collider.

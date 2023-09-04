@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// When a gameobject with this component is triggered, the object that collided is

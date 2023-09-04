@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Sirenix.OdinInspector;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Base class for interactables that will

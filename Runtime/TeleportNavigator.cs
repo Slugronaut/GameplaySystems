@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// A low-power option for navigation that uses Unity's navmesh raycasting

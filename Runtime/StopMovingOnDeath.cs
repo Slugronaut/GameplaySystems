@@ -1,8 +1,8 @@
-﻿using Toolbox.GCCI;
-using Toolbox.Messaging;
+﻿using Peg.GCCI;
+using Peg.Messaging;
 using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Cancels the last movement request made upon recieving a death event.

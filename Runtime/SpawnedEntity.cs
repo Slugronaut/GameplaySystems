@@ -1,9 +1,9 @@
 ﻿using System;
-using Toolbox.Messaging;
+using Peg.Messaging;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Attach this to an entity that is spawned at runtime so that

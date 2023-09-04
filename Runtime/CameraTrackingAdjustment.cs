@@ -1,14 +1,14 @@
-﻿using Toolbox.Behaviours;
+﻿using Peg.Behaviours;
 using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Used to adjust the tracking speed of a smooth motion tracking camera.
     /// The adjustments can be made in relative or absolute terms.
     /// </summary>
-    public class CameraTrackingAdjustment: Toolbox.AbstractOperationOnEvent
+    public class CameraTrackingAdjustment: Peg.AbstractOperationOnEvent
     {
         public enum AdjustmentType
         {

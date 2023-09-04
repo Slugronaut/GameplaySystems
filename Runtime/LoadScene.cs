@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using Peg.Systems;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Simple component that can be used to load a scene when activated.
@@ -48,7 +49,7 @@ namespace Toolbox.Behaviours
 
         private IEnumerator InvokeRealTimeHelper(System.Action callback, float delay)
         {
-            yield return StartCoroutine(Toolbox.CoroutineUtilities.WaitForRealTime(delay));
+            yield return StartCoroutine(CoroutineUtilities.WaitForRealTime(delay));
             callback?.Invoke();
         }
     }

@@ -1,7 +1,7 @@
-﻿using Toolbox.Math;
+﻿using Peg.Lib;
 using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Sets the active state of a 

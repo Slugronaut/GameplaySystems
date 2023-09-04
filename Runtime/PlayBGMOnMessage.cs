@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System;
-using Toolbox.Messaging;
+using Peg.Messaging;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Posts a message to the global BGM to play a new song

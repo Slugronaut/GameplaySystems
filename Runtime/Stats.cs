@@ -3,9 +3,9 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using System;
 using Sirenix.OdinInspector;
-using Toolbox.Collections;
+using Peg.Util;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Simple interface for creating character stats that map

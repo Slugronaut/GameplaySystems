@@ -1,4 +1,4 @@
-﻿namespace Toolbox.Game
+﻿namespace Peg.Game
 {
     /// <summary>
     /// Can be posted after all loading/pre-processing has been performed for a scene

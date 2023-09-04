@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using Toolbox.Game;
+using Peg.Game;
 using UnityEngine.Events;
-using Toolbox.Lazarus;
-using Toolbox.AutoCreate;
+using Peg.Lazarus;
+using Peg.AutoCreate;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Utility for spawning multitudes of prefabs. It interally
@@ -322,7 +322,7 @@ namespace Toolbox.Game
 }
 
 
-namespace Toolbox
+namespace Peg
 {
     public class EntitySpawnedEvent : AgentTargetMessage<ISpawner, EntityRoot, EntitySpawnedEvent>
     {

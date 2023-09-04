@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Peg.Lib;
+using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     [AddComponentMenu("Toolbox/Game/Smooth Follow 2D")]
     public class SmoothFollow2D : MonoBehaviour
@@ -28,7 +29,7 @@ namespace Toolbox.Game
             if (Axis == Orientation.XYAxis)
             {
                 Vector2 target = Following.position;
-                Vector2 temp = (Vector2)Toolbox.Math.MathUtils.SmoothApproach(
+                Vector2 temp = (Vector2)MathUtils.SmoothApproach(
                     (Vector2)transform.position, 
                     (Vector2)LastFollowedPos, 
                     target,
@@ -40,7 +41,7 @@ namespace Toolbox.Game
             else
             {
                 Vector2 target = new Vector2(Following.position.x, Following.position.z);
-                Vector2 temp = (Vector2)Toolbox.Math.MathUtils.SmoothApproach(
+                Vector2 temp = (Vector2)MathUtils.SmoothApproach(
                     new Vector2(transform.position.x, transform.position.z), 
                     LastFollowedPos, 
                     target, 

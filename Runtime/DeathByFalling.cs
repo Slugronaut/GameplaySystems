@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Attach to an entity that should die if it is detected that they are falling too fast.

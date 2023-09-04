@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     public class OffMeshDeath : MonoBehaviour
     {

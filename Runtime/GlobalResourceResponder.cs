@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Responds to globally posted Demands for an <see cref="IEntityResource"/>.

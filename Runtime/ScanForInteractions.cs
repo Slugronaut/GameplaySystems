@@ -2,9 +2,9 @@
 using UnityEngine;
 using System.Linq;
 using System;
-using Toolbox.Collections;
+using Peg.Util;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Used to determine what interactables are nearby and

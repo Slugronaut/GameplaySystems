@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using Toolbox.Behaviours;
 using Sirenix.OdinInspector;
+using Peg.Systems.LoD;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// A kind of AI that can be activated and it will harrass

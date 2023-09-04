@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Places a transform at a predicted location based on a ballistic raycast.

@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using Toolbox.Game;
+using Peg.Game;
 using System;
 using UnityEngine.Events;
 using System.Collections;
 using Sirenix.OdinInspector;
 using UnityEngine.Assertions;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// General-purpose health script.
@@ -590,7 +590,7 @@ namespace Toolbox.Game
 }
 
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Posted by Health Component when its internal current health value changes.

@@ -1,9 +1,9 @@
-﻿using Toolbox.AutoCreate;
-using Toolbox.Lazarus;
-using Toolbox.Messaging;
+﻿using Peg.AutoCreate;
+using Peg.Lazarus;
+using Peg.Messaging;
 using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Relenquishes this mob when it is dies.

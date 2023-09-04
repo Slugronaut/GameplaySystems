@@ -1,17 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Assertions;
-using Toolbox.Collections;
+using Peg.Util;
+using Peg.UpdateSystem;
+using Peg.AutoCreate;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// System for handling target finding for EnemeyTargetFinders.
     /// </summary>
-    public class EnemyTargetFinderSystem : BaseComponentSystem<EnemyTargetFinderSystem, EnemyTargetFinder>
+    [AutoCreate]
+    public class EnemyTargetFinderSystem : Updatable
     {
-        static List<GameObject> TempList = new List<GameObject>(10);
-        static HashSet<GameObject> TempSet = new HashSet<GameObject>();
+        public static EnemyTargetFinderSystem Instance { get; private set; }
+        static readonly List<GameObject> TempList = new(10);
+        static readonly HashSet<GameObject> TempSet = new();
 
         public enum DistanceMarginType
         {
@@ -41,9 +45,15 @@ namespace Toolbox.Game
         [Tooltip("The manner in which the RetargetThreshold should be calculated.")]
         public DistanceMarginType DistanceType;
 
+        List<EnemyTargetFinder> Comps = new();
 
 
-        private void Update()
+        void AutoAwake()
+        {
+            Instance = this;
+        }
+
+        public override void Update()
         {
             float t = Time.time;
             //if (Time.time - LastTime < Cooldown) return;
@@ -92,6 +102,16 @@ namespace Toolbox.Game
                             comp.CurrentTarget, agentPos, RetargetThreshold, DistanceType);
                 }
             }
+        }
+
+        public void Register(EnemyTargetFinder comp)
+        {
+            Comps.Add(comp);
+        }
+
+        public void UnRegister(EnemyTargetFinder comp)
+        {
+            Comps.Remove(comp);
         }
 
         /// <summary>

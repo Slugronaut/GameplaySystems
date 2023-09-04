@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Device for scanning the area for enemy targets. This is a dedicated script that will replace

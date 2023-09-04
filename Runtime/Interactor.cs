@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using Toolbox.Game;
-using Toolbox.GCCI;
-using Toolbox.Messaging;
+using Peg.Game;
+using Peg.GCCI;
+using Peg.Messaging;
 using UnityEngine;
 using UnityEngine.Events;
 
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Base class for all users of interactables. This should be paired appropriately for each sub-class of interactable.
@@ -144,7 +144,7 @@ namespace Toolbox.Game
         /// <returns></returns>
         public bool WithinInteractionRange(IInteractable target, float fudge = 0.1f)
         {
-            if (Toolbox.TypeHelper.IsReferenceNull(target)) return false;
+            if (Peg.TypeHelper.IsReferenceNull(target)) return false;
 
             float d = Vector3.Distance(transform.position, target.ActivationPosition);
             float maxAllowed = MaxRange + target.MaxRange + fudge;
@@ -431,7 +431,7 @@ namespace Toolbox.Game
 }
 
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Command to invoke an interaction.

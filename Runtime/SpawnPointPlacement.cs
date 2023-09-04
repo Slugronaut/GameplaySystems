@@ -2,9 +2,9 @@
 using UnityEngine.SceneManagement;
 using System.Linq;
 using System.Collections.Generic;
-using Toolbox.AutoCreate;
+using Peg.AutoCreate;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// This singleton can be used to track spawn positions throughout the scene.

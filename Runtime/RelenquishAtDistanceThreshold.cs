@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using Peg.Systems.LoD;
+using UnityEngine;
 using UnityEngine.Events;
-using LazarusPool = Toolbox.Lazarus.Lazarus;
+using LazarusPool = Peg.Lazarus.Lazarus;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Relenquishes this entity when it reaches the given distance to the nearest CoU.

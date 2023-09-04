@@ -1,10 +1,10 @@
-﻿using Toolbox.AutoCreate;
-using Toolbox.Lazarus;
-using Toolbox.Math;
+﻿using Peg.AutoCreate;
+using Peg.Lazarus;
+using Peg.Lib;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Toolbox.Behaviours
+namespace Peg.Behaviours
 {
     /// <summary>
     /// Relenquishes this entity when it goes offscreen.

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// General-purpose health script. This version supports replenishment of health over time.

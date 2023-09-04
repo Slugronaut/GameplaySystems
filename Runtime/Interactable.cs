@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System;
-using Toolbox.Game;
+using Peg.Game;
 using UnityEngine.Events;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
-using Toolbox.Messaging;
+using Peg.Messaging;
 
-namespace Toolbox.Game
+namespace Peg.Game
 {
     /// <summary>
     /// Base class from which all interactable objects can derive. Used for 
@@ -260,7 +260,7 @@ namespace Toolbox.Game
 }
 
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Event used internally by Interactor to trigger use event in the interactable.
