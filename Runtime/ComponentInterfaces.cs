@@ -5,7 +5,7 @@ using UnityEngine;
 /// This allows us to search for components in a GameObject based on useage and archetype rather than by 
 /// a specificly implemented class.
 /// </summary>
-namespace Peg
+namespace Peg.Game
 {
     public interface IToolboxComponentInterface
     {

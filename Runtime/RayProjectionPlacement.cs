@@ -28,7 +28,7 @@ namespace Peg.Game
 
 
         bool Run;
-        float StartTime;
+        double StartTime;
         bool Located;
         Rigidbody Body;
         static TrajectorySimulationUtil.Contact Contact = new TrajectorySimulationUtil.Contact();
@@ -43,7 +43,7 @@ namespace Peg.Game
         public void OnEnable()
         {
             Run = false;
-            StartTime = Time.time;
+            StartTime = Time.timeAsDouble;
             Located = false;
             if (DisableIfNoContact)
                 Obj.gameObject.SetActive(false);
@@ -72,7 +72,7 @@ namespace Peg.Game
         /// <param name="body"></param>
         void LinearStep(Rigidbody body)
         {
-            if (Time.time - StartTime < CalculationDelay)
+            if (Time.timeAsDouble - StartTime < CalculationDelay)
                 return;
 
             //early-out if we determine there isn't enough velocity to warrent checking yet

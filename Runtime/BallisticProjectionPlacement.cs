@@ -41,10 +41,10 @@ namespace Peg.Game
         public float DelayToStart = 0.2f;
 
 
-        float StartTime;
+        double StartTime;
         bool Located;
         Rigidbody Body;
-        static TrajectorySimulationUtil.Contact Contact = new TrajectorySimulationUtil.Contact();
+        static readonly TrajectorySimulationUtil.Contact Contact = new();
         bool Run;
 
 
@@ -56,7 +56,7 @@ namespace Peg.Game
         public void OnEnable()
         {
             Run = false;
-            StartTime = Time.time;
+            StartTime = Time.timeAsDouble;
             Located = false;
             if(DisableIfNoContact)
                 Obj.gameObject.SetActive(false);
@@ -85,7 +85,7 @@ namespace Peg.Game
         /// <param name="body"></param>
         void ArcStep(Rigidbody body)
         {
-            if (Time.time - StartTime < DelayToStart)
+            if (Time.timeAsDouble - StartTime < DelayToStart)
                 return;
 
             //early-out if we determine there isn't enough velocity to warrent checking yet
