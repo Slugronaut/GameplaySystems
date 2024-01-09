@@ -88,7 +88,7 @@ namespace Peg.Game.Spawning
             SpawnGroup.SetBoundingSphereCount(SpawnBounds.Length);
         }
 
-        static readonly string SpawnPointTag = "CulledSpawnPoint";
+        static readonly string SpawnPointTag = "CulledSpawnPointTag";
         void CollectSpawnPoints()
         {
             //Debug.Log("<color=green>Collecting spawn points...</color>");
