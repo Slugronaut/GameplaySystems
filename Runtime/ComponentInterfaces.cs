@@ -27,7 +27,13 @@ namespace Peg.Game
         /// Can be used to make the entity look in a specifc direction as though the player had input it.
         /// </summary>
         /// <param name="input"></param>
-        void SimulateLookDirection(Vector2 input);
+        void SimulateAimInput(Vector2 input);
+
+        /// <summary>
+        /// Forces the controller to look in the direction of a specific target.
+        /// </summary>
+        /// <param name="target"></param>
+        void Aim(Vector3 target);
     }
     
 }
